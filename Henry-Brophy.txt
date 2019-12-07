@@ -1,0 +1,119 @@
+
+
+
+https://codepen.io/Hbrophy93/pen/VwYvvYm?editors=1100
+
+1. What is Semantic HTML?
+It's a way of organizing a webpage using tags to provide meaning for search engine and page readers
+ 
+2. What is HTML used for?
+It's used to create the structure of a webpage 
+
+3. What is an attribute and where do we put it? 
+It is way to be more specific with an element and we put it within the first tag.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+It's a header tag and it goes at the top of your webpage. It should used only once. 
+
+
+5. Name two tags that have required attributes
+Links and images. 
+
+6. What do we put in the head of our HTML document?
+H1, Nav tags
+
+7. What is an id?
+An Id is an attribute that references a very specific thing. 
+ 
+8. What elements can I add an id to?
+Any as long as it's unique. 
+ 
+9. How many times can I use the same id on a page?
+Once 
+10. What is a class?
+An attribute that can be applied to multiple elements. 
+ 
+11. What elements can I add a class to?
+Any of them.  
+
+12. How many times can I use the same class on a page?
+Multiple times.
+ 
+13. How do I get my link to open in a new tab?
+<a href="$" target="_blank">$</a>
+
+14. What is the alt attribute used for?
+It's used when an image cannot viewed for users. 
+ 
+15. How do I reference an id?
+#idname
+
+16. What is the difference between a section and a div
+A section tag is semantic and div tag is not and is just a block of text.
+
+17. What is CSS used for?
+To style a webpage
+ 
+18. How to we select an element? Example - every h2 on the page
+H2{
+code}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+ID is unique to one entity and a class is not. If I had an element I only use once I would use an ID and if it was recurring I would use a class.
+
+20. How do we select classes in CSS?
+.class
+
+21. How do we select a p element with a single class of “human””?
+.humans-p{}
+
+22. What is a parent child selector? When would this be useful?
+When you want to style multiple entities the same way
+ 
+23. How do you select all links within a div with the class of sidebar?
+.class: a{
+Code}
+
+24. What is a pseudo selector?
+They are selectors preceded by a colon. :hover is an example. 
+
+25. What do we use the change the spacing between lines?
+Use the line-height property.
+
+26. What do we use to change the spacing between letters?
+Use the letter-spacing property.
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Use the text-transform property "uppercase","lowercase", and "capitalize"
+
+
+28. How do I add a 1px border around my div that is dotted and black?
+Div{border-style: dotted;
+  border-color: black;
+  border-width: 1px;}
+
+29. How do I select everything on the page?
+*{
+}
+
+30. How do I write a comment in CSS?
+/**/
+
+31. How do I find out what file I am in, when I am using the command line?
+You start out at your root directory which in my case is henrybrophy abs. It says this followed by a % sign and then when I got into a directory the % changes to the directory name. 
+ 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Ls 
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+"rm the filename" You have to be careful because it's then gone forever. 
+ 
+34. Why should I use version control?
+So you can go back to previous version that were better than the current code.
+  
+35. How often should I commit to github?
+Every few hours
+36. What is the command we would use to push our repo up to github?
+Push
+37. Walk me through Lambda's git flow.
+We create own version of a repo and then add TL as a collaborators. We then clone it.We then create a brand git. Then submit our version into a new branch. We use our own version as the base. Add our TL as a reviewer. It considered done when we merge the HW back into master "student fork."
